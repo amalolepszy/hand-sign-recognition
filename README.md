@@ -8,6 +8,8 @@ University project for Deep Learning, the goal is to use computer vision to reco
 
 - In the `app/` folder resides the logic using the trained models, in order to classify the users ASL gestures in real time, using the video feed of their webcam.
 
+- The `clean_dataset.ipynb` file contains scripts used to purge unwanted files from the dataset.
+
 ## Usage
 Call:
 ```
@@ -16,3 +18,6 @@ python3 /app/main.py
 if you have the necessary modules installed (`tensorflow`, `opencv-python`, `numpy`), the app will launch and perform real-time inference using the trained models on the feed of your webcam.
 
 ![](readme_example.png "Example")
+
+## Used dataset:
+https://universe.roboflow.com/sallyann-delucia-ge6qp/asl-fezj6
